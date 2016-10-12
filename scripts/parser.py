@@ -18,20 +18,38 @@ The date is the date of that commit
 
 https://docs.python.org/2/library/xml.etree.elementtree.html
 '''
+import datetime, dateutil.parser
 
 
 def parse_list():
+    """
+    http://stackoverflow.com/questions/214777/how-do-you-convert-yyyy-mm-ddthhmmss-000z-time-format-to-mm-dd-yyyy-time-forma
+    """
     projects = {}
     tree = ET.parse('svn_list.xml')
     root = tree.getroot()
     for entry in root.iter('entry'):
         name = entry.find("name").text
+
+        file_path_directories = name.split("/")
+        current_directory = projects
+        for directory in file_path_directories[:-1]:
+            if directory in current_directory:
+                current_directory = current_directory[directory]
+            else:
+                current_directory[directory] = {}
+                current_directory = current_directory[directory]
+
         commit = entry.find("commit")
-        projects[name] = {"author": commit.find("author").text,
-                                             "date": commit.find("date").text,
-                                             "version": commit.get("revision")}
+        author = commit.find("author").text
+        parsed_date = dateutil.parser.parse(commit.find("date").text)
+        date = parsed_date.strftime('%m/%d/%Y %I:%M:%S %p')
+        version = commit.get("revision")
+        current_directory[file_path_directories[-1]] = {"author": author,
+                                                        "date": date,
+                                                        "version": version}
         if entry.find("size") is not None:
-            projects[name]["size"] = entry.find("size").text
+            current_directory[file_path_directories[-1]]["size"] = entry.find("size").text
 
     tree = ET.parse('svn_log.xml')
     root = tree.getroot()
@@ -42,15 +60,18 @@ def parse_list():
         msg = logentry.find("msg").text
         paths = logentry.find("paths")
         for path in paths.findall("path"):
-            file_path = "/".join(path.text.split("/")[2:])
-            if file_path not in projects:
-                continue
-            if "summary" not in projects[file_path]:
-                projects[file_path]["summary"] = msg
-            if "revision" not in projects[file_path]:
-                projects[file_path]["revisions"] = [{"version": version, "author": author, "date": date}]
-            else:
-                projects[file_path]["revisions"].append({"version": version, "author": author, "date": date})
-
-    print projects["Chess/Framework/Pieces/Piece.java"]
+            file_path_directories = path.text.split("/")
+            current_directory = projects
+            for directory in file_path_directories[2:-1]:
+                if directory in current_directory:
+                    current_directory = current_directory[directory]
+                else:
+                    current_directory[directory] = {}
+                    current_directory = current_directory[directory]
+            file_name = file_path_directories[-1]
+            if file_name not in current_directory:
+                current_directory[file_name] = {}
+            current_directory[file_name]["summary"] = msg
+            current_directory[file_name]["revision"] = {"version": version, "author": author, "date": date}
+    return projects
 parse_list()

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ project_name }}</title>
+</head>
+<body>
+    <h3> FILES: </h3>
+    {% for subpart in project %}
+        {% if "size" in project[subpart] %}
+            <p>File Name: {{ subpart }}</p>
+            <p>Author: {{ project[subpart]['author'] }} </p>
+            <p>Version: {{ project[subpart]['version'] }} </p>
+            <p>Summary: {{ project[subpart]['summary'] }} </p>
+            <p>Date: {{ project[subpart]['date'] }} </p>
+            <p>Version: {{ project[subpart]['size'] }} </p>
+            <p><a href="/{{project_name}}/{{subpart}}">View File</a></p>
+            <br>
+        {% endif %}
+    {% endfor %}
+    <
+    {% for subpart in project %}
+        {% if "size" not in project[subpart] %}
+            <h3> I'm a directory: {{ subpart }} </h3>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>

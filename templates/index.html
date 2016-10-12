@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>SVN Projects</title>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-
+    <h1 align="center">SVN Project Summaries</h1>
+    <div class="primary-content">
+        <ul class="project-categories">
+            {% for project in projects %}
+            <li>
+                <h2 align="center">Project Title: {{project}}</h2>
+                <p>Date: {{projects[project]['date']}}</p>
+                <p>Version: {{projects[project]['version']}}</p>
+                <p>Summary: {{projects[project]['summary']}}</p>
+                <p>Author: {{projects[project]['author']}}</p>
+                <p><a class="btn" href="/{{project}}">View details </a></p>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </body>
+
 </html>
