@@ -18,7 +18,9 @@ The date is the date of that commit
 
 https://docs.python.org/2/library/xml.etree.elementtree.html
 '''
-import datetime, dateutil.parser
+import dateutil.parser
+
+URL = "https://subversion.ews.illinois.edu/svn/fa16-cs242"
 
 
 def parse_list():
@@ -31,6 +33,14 @@ def parse_list():
     for entry in root.iter('entry'):
         name = entry.find("name").text
 
+        commit = entry.find("commit")
+        author = commit.find("author").text
+        parsed_date = dateutil.parser.parse(commit.find("date").text)
+        date = parsed_date.strftime('%m/%d/%Y %I:%M:%S %p')
+        version = commit.get("revision")
+        if not author or not date or not version:
+            continue
+
         file_path_directories = name.split("/")
         current_directory = projects
         for directory in file_path_directories[:-1]:
@@ -40,11 +50,6 @@ def parse_list():
                 current_directory[directory] = {}
                 current_directory = current_directory[directory]
 
-        commit = entry.find("commit")
-        author = commit.find("author").text
-        parsed_date = dateutil.parser.parse(commit.find("date").text)
-        date = parsed_date.strftime('%m/%d/%Y %I:%M:%S %p')
-        version = commit.get("revision")
         current_directory[file_path_directories[-1]] = {"author": author,
                                                         "date": date,
                                                         "version": version}
@@ -58,8 +63,13 @@ def parse_list():
         author = logentry.find("author").text
         date = logentry.find("date").text
         msg = logentry.find("msg").text
+        if not version or not author or not date or not msg:
+            continue
         paths = logentry.find("paths")
         for path in paths.findall("path"):
+            action = path.get("action")
+            if action == "D":
+                continue
             file_path_directories = path.text.split("/")
             current_directory = projects
             for directory in file_path_directories[2:-1]:
@@ -73,5 +83,6 @@ def parse_list():
                 current_directory[file_name] = {}
             current_directory[file_name]["summary"] = msg
             current_directory[file_name]["revision"] = {"version": version, "author": author, "date": date}
+            current_directory[file_name]["url"] = URL + path.text
     return projects
 parse_list()

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ file_name }}</title>
+</head>
+<body>
+    <h1>File Name: {{ file_name }}</h1>
+    <p>Author: {{ file_data['author'] }} </p>
+    <p>Version: {{ file_data['version'] }} </p>
+    <p>Summary: {{ file_data['summary'] }} </p>
+    <p>Date: {{ file_data['date'] }} </p>
+    <p>File Size: {{ file_data['size'] }} </p>
+    <iframe src="{{ file_data['url'] }}" width=100% height="500">File</iframe>
+</body>
+</html>
