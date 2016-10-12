@@ -11,11 +11,11 @@
         <ul class="project-categories">
             {% for project in projects %}
             <li>
-                <h2 align="center">Project Title: {{project}}</h2>
-                <p>Date: {{projects[project]['date']}}</p>
-                <p>Version: {{projects[project]['version']}}</p>
-                <p>Summary: {{projects[project]['summary']}}</p>
-                <p>Author: {{projects[project]['author']}}</p>
+                <h2 align="center">Project Title: {{ project }}</h2>
+                <p>Date: {{ projects[project]['date'] }}</p>
+                <p>Version: {{ projects[project]['version'] }}</p>
+                <p>Summary: {{ projects[project]['summary'] }}</p>
+                <p>Author: {{ projects[project]['author'] }}</p>
                 <p><a class="btn" href="/{{project}}">View details </a></p>
             </li>
             {% endfor %}

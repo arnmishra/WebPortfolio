@@ -18,10 +18,16 @@
             <br>
         {% endif %}
     {% endfor %}
-    <
+    <hr>
+    <h3> SUBDIRECTORIES: </h3>
     {% for subpart in project %}
         {% if "size" not in project[subpart] %}
-            <h3> I'm a directory: {{ subpart }} </h3>
+            <p>Directory Name: {{ subpart }}</p>
+            <p>Date: {{ project[subpart]['date'] }}</p>
+            <p>Version: {{ project[subpart]['version'] }}</p>
+            <p>Summary: {{ project[subpart]['summary'] }}</p>
+            <p>Author: {{ project[subpart]['author'] }}</p>
+            <p><a class="btn" href="/{{project_name}}/{{subpart}}">View details </a></p>
         {% endif %}
     {% endfor %}
 </body>
