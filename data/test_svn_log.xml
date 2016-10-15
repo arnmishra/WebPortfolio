@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="1073">
+<author>agmishr2</author>
+<date>2016-08-28T17:57:16.569076Z</date>
+<paths>
+<path
+   kind="dir"
+   copyfrom-path="/agmishr2/grocery"
+   copyfrom-rev="1072"
+   action="A">/agmishr2/shopping</path>
+<path
+   action="D"
+   kind="dir">/agmishr2/grocery</path>
+<path
+   action="M"
+   kind="file">/agmishr2/shopping/list1.txt</path>
+<path
+   action="M"
+   kind="file">/agmishr2/shopping/list2.txt</path>
+<path
+   action="D"
+   kind="file">/agmishr2/shopping/list3.txt</path>
+</paths>
+<msg>Moved grocery to shopping for clarity</msg>
+</logentry>
+<logentry
+   revision="1065">
+<author>agmishr2</author>
+<date>2016-08-28T17:50:16.569076Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/agmishr2/shopping/list2.txt</path>
+</paths>
+<msg>Add List 2</msg>
+</logentry>
+</log>

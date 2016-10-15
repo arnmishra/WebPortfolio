@@ -1,0 +1,2587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/fa16-cs242/agmishr2">
+<entry
+   kind="dir">
+<name>Assignment0</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/Assignment0.c</name>
+<size>9232</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.classpath</name>
+<size>391</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.project</name>
+<size>362</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/.settings</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>629</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/COPYING</name>
+<size>18011</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/LANSimulation.class</name>
+<size>4548</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/Network.class</name>
+<size>7277</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/internals</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Node.class</name>
+<size>2998</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Packet.class</name>
+<size>717</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/tests</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</name>
+<size>1082</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests.class</name>
+<size>9669</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/doc</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/toDoList</name>
+<size>1772</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/expectedOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/javadoc.xml</name>
+<size>393</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/LANSimulation.java</name>
+<size>5845</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/Network.java</name>
+<size>11961</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/internals</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Node.java</name>
+<size>4167</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Packet.java</name>
+<size>1828</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/tests</name>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/tests/LANTests.java</name>
+<size>10293</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/useOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1431">
+<author>agmishr2</author>
+<date>2016-08-29T16:28:30.628247Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/Framework</name>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Board.class</name>
+<size>7138</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Board.java</name>
+<size>8854</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Move.class</name>
+<size>873</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Move.java</name>
+<size>1266</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/Framework/Pieces</name>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Bishop.class</name>
+<size>2027</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Bishop.java</name>
+<size>2236</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/King.class</name>
+<size>2452</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/King.java</name>
+<size>3136</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Knight.class</name>
+<size>2156</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Knight.java</name>
+<size>2344</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Pawn.class</name>
+<size>3280</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Pawn.java</name>
+<size>4443</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Piece.class</name>
+<size>3792</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Piece.java</name>
+<size>5645</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Queen.class</name>
+<size>2468</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Queen.java</name>
+<size>3441</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Rook.class</name>
+<size>2201</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Pieces/Rook.java</name>
+<size>2596</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Team.class</name>
+<size>1327</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Framework/Team.java</name>
+<size>1199</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Game.class</name>
+<size>3510</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Game.java</name>
+<size>3614</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/Tests</name>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/BishopTest.class</name>
+<size>2353</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/BishopTest.java</name>
+<size>2777</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/BoardTest.class</name>
+<size>3182</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/BoardTest.java</name>
+<size>4984</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/Common.class</name>
+<size>1612</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/Common.java</name>
+<size>1849</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/KingTest.class</name>
+<size>2696</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/KingTest.java</name>
+<size>3549</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/KnightTest.class</name>
+<size>2232</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/KnightTest.java</name>
+<size>2223</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/PawnTest.class</name>
+<size>3305</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/PawnTest.java</name>
+<size>4516</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/PieceTest.class</name>
+<size>1838</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/PieceTest.java</name>
+<size>1792</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/QueenTest.class</name>
+<size>2824</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/QueenTest.java</name>
+<size>4061</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/RookTest.class</name>
+<size>2673</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/RookTest.java</name>
+<size>3553</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/TeamTest.class</name>
+<size>2312</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Tests/TeamTest.java</name>
+<size>2388</size>
+<commit
+   revision="3948">
+<author>agmishr2</author>
+<date>2016-09-10T17:06:12.829938Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Doxyfile</name>
+<size>108380</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/GUITestPlan.pdf</name>
+<size>91612</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/bin</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/bin/Controller</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Controller/Game.class</name>
+<size>3488</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/bin/Model</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Board.class</name>
+<size>7361</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Move.class</name>
+<size>865</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/bin/Model/Pieces</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Pieces/Bishop.class</name>
+<size>1966</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Pieces/Checker.class</name>
+<size>2392</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Pieces/Ferz.class</name>
+<size>2153</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Pieces/King.class</name>
+<size>2387</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Pieces/Knight.class</name>
+<size>2107</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Pieces/Pawn.class</name>
+<size>3224</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Pieces/Piece.class</name>
+<size>3711</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Pieces/Queen.class</name>
+<size>2403</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Pieces/Rook.class</name>
+<size>2140</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Model/Team.class</name>
+<size>1295</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/bin/Tests</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/BishopTest.class</name>
+<size>2504</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/BoardTest.class</name>
+<size>3261</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/CheckerTest.class</name>
+<size>2884</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/Common.class</name>
+<size>1568</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/FerzTest.class</name>
+<size>2370</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/KingTest.class</name>
+<size>2861</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/KnightTest.class</name>
+<size>2472</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/PawnTest.class</name>
+<size>3329</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/PieceTest.class</name>
+<size>1826</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/QueenTest.class</name>
+<size>2832</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/RookTest.class</name>
+<size>2681</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Tests/TeamTest.class</name>
+<size>2300</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/bin/View</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/GUI.class</name>
+<size>4596</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/bin/View/Pieces</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/blackBishop.png</name>
+<size>5906</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/blackKing.png</name>
+<size>13603</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/blackKnight.png</name>
+<size>8438</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/blackPawn.png</name>
+<size>3831</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/blackQueen.png</name>
+<size>12748</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/blackRook.png</name>
+<size>3220</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/whiteBishop.png</name>
+<size>10273</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/whiteKing.png</name>
+<size>12363</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/whiteKnight.png</name>
+<size>11143</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/whitePawn.png</name>
+<size>1983</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/whiteQueen.png</name>
+<size>15628</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/View/Pieces/whiteRook.png</name>
+<size>3202</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Controller</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Controller/Game.java</name>
+<size>3649</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Model</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Board.java</name>
+<size>9507</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Move.java</name>
+<size>1262</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Model/Pieces</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Pieces/Bishop.java</name>
+<size>2250</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Pieces/Checker.java</name>
+<size>3301</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Pieces/Ferz.java</name>
+<size>2798</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Pieces/King.java</name>
+<size>3438</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Pieces/Knight.java</name>
+<size>2358</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Pieces/Pawn.java</name>
+<size>4483</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Pieces/Piece.java</name>
+<size>5644</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Pieces/Queen.java</name>
+<size>3455</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Pieces/Rook.java</name>
+<size>2610</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Model/Team.java</name>
+<size>1192</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Tests</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/BishopTest.java</name>
+<size>3210</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/BoardTest.java</name>
+<size>5235</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/CheckerTest.java</name>
+<size>3708</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/Common.java</name>
+<size>1841</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/FerzTest.java</name>
+<size>2636</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/KingTest.java</name>
+<size>4221</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/KnightTest.java</name>
+<size>2811</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/PawnTest.java</name>
+<size>4666</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/PieceTest.java</name>
+<size>1830</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/QueenTest.java</name>
+<size>4157</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/RookTest.java</name>
+<size>3649</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tests/TeamTest.java</name>
+<size>2426</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/View</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/GUI.java</name>
+<size>4656</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/View/Pieces</name>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/blackBishop.png</name>
+<size>5906</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/blackKing.png</name>
+<size>13603</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/blackKnight.png</name>
+<size>8438</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/blackPawn.png</name>
+<size>3831</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/blackQueen.png</name>
+<size>12748</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/blackRook.png</name>
+<size>3220</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/whiteBishop.png</name>
+<size>10273</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/whiteKing.png</name>
+<size>12363</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/whiteKnight.png</name>
+<size>11143</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/whitePawn.png</name>
+<size>1983</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/whiteQueen.png</name>
+<size>15628</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/Pieces/whiteRook.png</name>
+<size>3202</size>
+<commit
+   revision="4985">
+<author>agmishr2</author>
+<date>2016-09-16T16:53:24.501984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Controller</name>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Controller/RunGame.java</name>
+<size>6812</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Doxyfile</name>
+<size>108380</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/ManualGUITestPlan.pdf</name>
+<size>2324265</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Model</name>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Board.java</name>
+<size>8602</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Move.java</name>
+<size>1656</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Model/Pieces</name>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Pieces/Bishop.java</name>
+<size>2250</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Pieces/Checker.java</name>
+<size>3386</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Pieces/Ferz.java</name>
+<size>2807</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Pieces/King.java</name>
+<size>3447</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Pieces/Knight.java</name>
+<size>2367</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Pieces/Pawn.java</name>
+<size>4483</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Pieces/Piece.java</name>
+<size>5653</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Pieces/Queen.java</name>
+<size>3455</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Pieces/Rook.java</name>
+<size>2610</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Model/Team.java</name>
+<size>2376</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/Tests</name>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/BishopTest.java</name>
+<size>3598</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/BoardTest.java</name>
+<size>6163</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/CheckerTest.java</name>
+<size>3961</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/Common.java</name>
+<size>1927</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/FerzTest.java</name>
+<size>3317</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/KingTest.java</name>
+<size>4612</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/KnightTest.java</name>
+<size>3200</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/PawnTest.java</name>
+<size>4696</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/PieceTest.java</name>
+<size>2015</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/QueenTest.java</name>
+<size>4368</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/RookTest.java</name>
+<size>3859</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Tests/TeamTest.java</name>
+<size>2436</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/View</name>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/ChessboardTile.java</name>
+<size>595</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/GUI.java</name>
+<size>14628</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/View/Pieces</name>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/blackBishop.png</name>
+<size>5906</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/blackChecker.png</name>
+<size>30307</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/blackFerz.png</name>
+<size>36326</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/blackKing.png</name>
+<size>13603</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/blackKnight.png</name>
+<size>8438</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/blackPawn.png</name>
+<size>3831</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/blackQueen.png</name>
+<size>12748</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/blackRook.png</name>
+<size>3220</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/whiteBishop.png</name>
+<size>10273</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/whiteChecker.png</name>
+<size>25295</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/whiteFerz.png</name>
+<size>53732</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/whiteKing.png</name>
+<size>12363</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/whiteKnight.png</name>
+<size>11143</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/whitePawn.png</name>
+<size>1983</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/whiteQueen.png</name>
+<size>15628</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/View/Pieces/whiteRook.png</name>
+<size>3202</size>
+<commit
+   revision="5782">
+<author>agmishr2</author>
+<date>2016-09-23T18:01:10.305076Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="6427">
+<author>agmishr2</author>
+<date>2016-09-30T18:23:24.292039Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/data</name>
+<commit
+   revision="6421">
+<author>agmishr2</author>
+<date>2016-09-30T17:55:02.801963Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/data/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="6421">
+<author>agmishr2</author>
+<date>2016-09-30T17:55:02.801963Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/data/test_data.json</name>
+<size>1084</size>
+<commit
+   revision="6421">
+<author>agmishr2</author>
+<date>2016-09-30T17:55:02.801963Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/framework</name>
+<commit
+   revision="6427">
+<author>agmishr2</author>
+<date>2016-09-30T18:23:24.292039Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/framework/__init__.py</name>
+<size>0</size>
+<commit
+   revision="6421">
+<author>agmishr2</author>
+<date>2016-09-30T17:55:02.801963Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/framework/graph.py</name>
+<size>1668</size>
+<commit
+   revision="6427">
+<author>agmishr2</author>
+<date>2016-09-30T18:23:24.292039Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/main.py</name>
+<size>430</size>
+<commit
+   revision="6421">
+<author>agmishr2</author>
+<date>2016-09-30T17:55:02.801963Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/scripts</name>
+<commit
+   revision="6427">
+<author>agmishr2</author>
+<date>2016-09-30T18:23:24.292039Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/scripts/__init__.py</name>
+<size>0</size>
+<commit
+   revision="6421">
+<author>agmishr2</author>
+<date>2016-09-30T17:55:02.801963Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/scripts/graph_functions.py</name>
+<size>7901</size>
+<commit
+   revision="6427">
+<author>agmishr2</author>
+<date>2016-09-30T18:23:24.292039Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/scripts/user_prompts.py</name>
+<size>3939</size>
+<commit
+   revision="6427">
+<author>agmishr2</author>
+<date>2016-09-30T18:23:24.292039Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/tests</name>
+<commit
+   revision="6427">
+<author>agmishr2</author>
+<date>2016-09-30T18:23:24.292039Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/tests/__init__.py</name>
+<size>0</size>
+<commit
+   revision="6421">
+<author>agmishr2</author>
+<date>2016-09-30T17:55:02.801963Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/tests/test_graph.py</name>
+<size>1204</size>
+<commit
+   revision="6427">
+<author>agmishr2</author>
+<date>2016-09-30T18:23:24.292039Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/tests/test_graph_functions.py</name>
+<size>4785</size>
+<commit
+   revision="6421">
+<author>agmishr2</author>
+<date>2016-09-30T17:55:02.801963Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1</name>
+<commit
+   revision="7074">
+<author>agmishr2</author>
+<date>2016-10-07T19:10:13.843156Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/data</name>
+<commit
+   revision="7074">
+<author>agmishr2</author>
+<date>2016-10-07T19:10:13.843156Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/data/cmi_hub.json</name>
+<size>1104</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/data/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/data/output_data.json</name>
+<size>42994</size>
+<commit
+   revision="7074">
+<author>agmishr2</author>
+<date>2016-10-07T19:10:13.843156Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/data/test_data.json</name>
+<size>1084</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/framework</name>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/framework/__init__.py</name>
+<size>0</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/framework/graph.py</name>
+<size>2107</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/main.py</name>
+<size>486</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/scripts</name>
+<commit
+   revision="7074">
+<author>agmishr2</author>
+<date>2016-10-07T19:10:13.843156Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/scripts/__init__.py</name>
+<size>0</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/scripts/graph_functions.py</name>
+<size>17990</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/scripts/user_prompts.py</name>
+<size>9644</size>
+<commit
+   revision="7074">
+<author>agmishr2</author>
+<date>2016-10-07T19:10:13.843156Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/tests</name>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/__init__.py</name>
+<size>0</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/test_graph.py</name>
+<size>2783</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/test_graph_functions.py</name>
+<size>7668</size>
+<commit
+   revision="7045">
+<author>agmishr2</author>
+<date>2016-10-07T16:51:59.615840Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>shopping</name>
+<commit
+   revision="1073">
+<author>agmishr2</author>
+<date>2016-08-28T17:57:16.569076Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>shopping/list1.txt</name>
+<size>56</size>
+<commit
+   revision="1062">
+<author>agmishr2</author>
+<date>2016-08-28T17:47:43.576112Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>shopping/list2.txt</name>
+<size>75</size>
+<commit
+   revision="1068">
+<author>agmishr2</author>
+<date>2016-08-28T17:54:52.904692Z</date>
+</commit>
+</entry>
+</list>
+</lists>

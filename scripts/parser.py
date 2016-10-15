@@ -1,36 +1,28 @@
+""" File to parse the SVN Materials to create a Projects Dictionary. """
+
 import xml.etree.ElementTree as ET
-
-'''
-The title of each of your projects
-The date for each project
-The version for each project
-The summary for each project (the most recent commit message for that assignment)
-A listing of each file in the project with
-Its size
-The type of the file: is one of code, test, image, documentation, resource, etc (feel free to add as many types as you wish).
-The path is the path to your files in SVN.
-The file itself loaded in an iframe only on demand
-Each version of each file in the project
-The number is the revision number for that commit
-The author is the netid of the committer
-The info is the commit message for that revision
-The date is the date of that commit
-
-https://docs.python.org/2/library/xml.etree.elementtree.html
-'''
 import dateutil.parser
 
 CODE_ENDINGS = [".py", ".java", ".c", ".cpp", ".h", ".js"]
 IMAGE_ENDINGS = [".jpg", ".png"]
 URL = "https://subversion.ews.illinois.edu/svn/fa16-cs242"
+SVN_LIST_FILE = "data/svn_list.xml"
+SVN_LOG_FILE = "data/svn_log.xml"
 
 
-def parse_list():
-    """
+def parse_svn_list(svn_list):
+    """ Parses the SVN List into a Projects dictionary.
+    From the SVN List, parse the data about each of the files in the SVN repository.
+    For help with parsing times:
     http://stackoverflow.com/questions/214777/how-do-you-convert-yyyy-mm-ddthhmmss-000z-time-format-to-mm-dd-yyyy-time-forma
+    For help using XML Trees:
+    https://docs.python.org/2/library/xml.etree.elementtree.html
+
+    :param svn_list: File for the SVN List
+    :return: Projects dictionary with the relevant information extracted.
     """
     projects = {}
-    tree = ET.parse('svn_list.xml')
+    tree = ET.parse(svn_list)
     root = tree.getroot()
     for entry in root.iter('entry'):
         name = entry.find("name").text
@@ -58,8 +50,18 @@ def parse_list():
                                                             "version": version}
         if entry.find("size") is not None:
             current_directory[file_path_directories[-1]]["size"] = entry.find("size").text
+    return projects
 
-    tree = ET.parse('svn_log.xml')
+
+def parse_svn_log(projects, svn_log):
+    """Parse the SVN Log into the Projects dictionary.
+    From the SVN Log, parse the data about each commit in the SVN Repository.
+
+    :param projects: Projects dictionary after SVN list extraction
+    :param svn_log: File for SVN Log
+    :return: Projects dictionary after adding info from SVN Log
+    """
+    tree = ET.parse(svn_log)
     root = tree.getroot()
     for logentry in root.iter('logentry'):
         msg = logentry.find("msg").text
@@ -81,6 +83,8 @@ def parse_list():
             file_name = file_path_directories[-1]
             if file_name not in current_directory:
                 current_directory[file_name] = {}
+            elif "type" in current_directory[file_name]:
+                continue
             current_directory[file_name]["summary"] = msg
             current_directory[file_name]["path"] = path.text
             current_directory[file_name]["url"] = URL + path.text
@@ -94,7 +98,17 @@ def parse_list():
                 current_directory[file_name]["type"] = "Text File"
             else:
                 current_directory[file_name]["type"] = "Other File"
-
     return projects
 
-parse_list()
+
+def parse_files(svn_list=SVN_LIST_FILE, svn_log=SVN_LOG_FILE):
+    """ Function to parse data from the SVN List and the SVN Log
+
+    :param svn_list: SVN List file to initialize projects with
+    :param svn_log: SVN Log file to initialize projects with
+    :return: Projects dictionary with information about all relevant files in SVN.
+    """
+    projects = parse_svn_list(svn_list)
+    projects = parse_svn_log(projects, svn_log)
+    return projects
+
