@@ -20,6 +20,8 @@ https://docs.python.org/2/library/xml.etree.elementtree.html
 '''
 import dateutil.parser
 
+CODE_ENDINGS = [".py", ".java", ".c", ".cpp", ".h", ".js"]
+IMAGE_ENDINGS = [".jpg", ".png"]
 URL = "https://subversion.ews.illinois.edu/svn/fa16-cs242"
 
 
@@ -50,20 +52,18 @@ def parse_list():
                 current_directory[directory] = {}
                 current_directory = current_directory[directory]
 
-        current_directory[file_path_directories[-1]] = {"author": author,
-                                                        "date": date,
-                                                        "version": version}
+        if author and date and version:
+            current_directory[file_path_directories[-1]] = {"author": author,
+                                                            "date": date,
+                                                            "version": version}
         if entry.find("size") is not None:
             current_directory[file_path_directories[-1]]["size"] = entry.find("size").text
 
     tree = ET.parse('svn_log.xml')
     root = tree.getroot()
     for logentry in root.iter('logentry'):
-        version = logentry.get("revision")
-        author = logentry.find("author").text
-        date = logentry.find("date").text
         msg = logentry.find("msg").text
-        if not version or not author or not date or not msg:
+        if not msg:
             continue
         paths = logentry.find("paths")
         for path in paths.findall("path"):
@@ -82,7 +82,19 @@ def parse_list():
             if file_name not in current_directory:
                 current_directory[file_name] = {}
             current_directory[file_name]["summary"] = msg
-            current_directory[file_name]["revision"] = {"version": version, "author": author, "date": date}
+            current_directory[file_name]["path"] = path.text
             current_directory[file_name]["url"] = URL + path.text
+            if "test" in path.text.lower():
+                current_directory[file_name]["type"] = "Test File"
+            elif any(code_end in file_name for code_end in CODE_ENDINGS):
+                current_directory[file_name]["type"] = "Code File"
+            elif any(image_end in file_name for image_end in IMAGE_ENDINGS):
+                current_directory[file_name]["type"] = "Image File"
+            elif ".txt" in file_name:
+                current_directory[file_name]["type"] = "Text File"
+            else:
+                current_directory[file_name]["type"] = "Other File"
+
     return projects
+
 parse_list()

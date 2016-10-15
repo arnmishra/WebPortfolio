@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <log>
 <logentry
+   revision="7743">
+<author>agmishr2</author>
+<date>2016-10-15T01:11:44.096741Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/agmishr2/Chess</path>
+</paths>
+<msg>Delete Extra Chess Folder</msg>
+</logentry>
+<logentry
    revision="7074">
 <author>agmishr2</author>
 <date>2016-10-07T19:10:13.843156Z</date>
 <paths>
 <path
-   kind="file"
-   action="M">/agmishr2/Assignment2.1/data/output_data.json</path>
+   action="M"
+   kind="file">/agmishr2/Assignment2.1/scripts/user_prompts.py</path>
 <path
-   kind="file"
-   action="M">/agmishr2/Assignment2.1/scripts/user_prompts.py</path>
+   action="M"
+   kind="file">/agmishr2/Assignment2.1/data/output_data.json</path>
 </paths>
 <msg>Updates</msg>
 </logentry>
@@ -20,35 +31,11 @@
 <date>2016-10-07T16:51:59.615840Z</date>
 <paths>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment2.1/framework/graph.py</path>
-<path
    kind="dir"
-   action="A">/agmishr2/Assignment2.1/scripts</path>
+   action="A">/agmishr2/Assignment2.1</path>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment2.1/data/cmi_hub.json</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment2.1/data/map_data.json</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment2.1/tests/__init__.py</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment2.1/tests/test_graph.py</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment2.1/data/test_data.json</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment2.1/framework</path>
-<path
-   action="A"
-   kind="dir">/agmishr2/Assignment2.1</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment2.1/tests</path>
+   kind="dir">/agmishr2/Assignment2.1/tests</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment2.1/scripts/graph_functions.py</path>
@@ -56,23 +43,47 @@
    kind="dir"
    action="A">/agmishr2/Assignment2.1/data</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment2.1/data/output_data.json</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment2.1/main.py</path>
+   kind="file"
+   action="A">/agmishr2/Assignment2.1/data/output_data.json</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment2.1/scripts/__init__.py</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment2.1/scripts/user_prompts.py</path>
+   action="A">/agmishr2/Assignment2.1/main.py</path>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment2.1/tests/test_graph_functions.py</path>
+   kind="file">/agmishr2/Assignment2.1/scripts/__init__.py</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.1/scripts/user_prompts.py</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment2.1/framework/__init__.py</path>
+   action="A">/agmishr2/Assignment2.1/tests/test_graph_functions.py</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.1/framework/__init__.py</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.1/framework/graph.py</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment2.1/scripts</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.1/data/cmi_hub.json</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment2.1/data/map_data.json</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.1/tests/__init__.py</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.1/tests/test_graph.py</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.1/data/test_data.json</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment2.1/framework</path>
 </paths>
 <msg>Assignment 2.1</msg>
 </logentry>
@@ -82,17 +93,17 @@
 <date>2016-09-30T18:23:24.292039Z</date>
 <paths>
 <path
-   action="M"
-   kind="file">/agmishr2/Assignment2.0/framework/graph.py</path>
-<path
-   action="M"
-   kind="file">/agmishr2/Assignment2.0/scripts/graph_functions.py</path>
+   kind="file"
+   action="M">/agmishr2/Assignment2.0/scripts/graph_functions.py</path>
 <path
    action="M"
    kind="file">/agmishr2/Assignment2.0/tests/test_graph.py</path>
 <path
-   action="M"
-   kind="file">/agmishr2/Assignment2.0/scripts/user_prompts.py</path>
+   kind="file"
+   action="M">/agmishr2/Assignment2.0/scripts/user_prompts.py</path>
+<path
+   kind="file"
+   action="M">/agmishr2/Assignment2.0/framework/graph.py</path>
 </paths>
 <msg>assignment 2.0</msg>
 </logentry>
@@ -103,10 +114,19 @@
 <paths>
 <path
    kind="dir"
-   action="A">/agmishr2/Assignment2.0/data</path>
+   action="A">/agmishr2/Assignment2.0</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment2.0/main.py</path>
+   action="A"
+   kind="dir">/agmishr2/Assignment2.0/tests</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.0/scripts/graph_functions.py</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment2.0/data</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.0/main.py</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment2.0/scripts/__init__.py</path>
@@ -117,8 +137,8 @@
    kind="file"
    action="A">/agmishr2/Assignment2.0/tests/test_graph_functions.py</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment2.0/framework/__init__.py</path>
+   action="A"
+   kind="file">/agmishr2/Assignment2.0/framework/__init__.py</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment2.0/framework/graph.py</path>
@@ -126,29 +146,20 @@
    kind="dir"
    action="A">/agmishr2/Assignment2.0/scripts</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment2.0/data/map_data.json</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment2.0/tests/__init__.py</path>
+   kind="file"
+   action="A">/agmishr2/Assignment2.0/data/map_data.json</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment2.0/data/test_data.json</path>
+   action="A">/agmishr2/Assignment2.0/tests/__init__.py</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment2.0/data/test_data.json</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment2.0/tests/test_graph.py</path>
 <path
    kind="dir"
    action="A">/agmishr2/Assignment2.0/framework</path>
-<path
-   action="A"
-   kind="dir">/agmishr2/Assignment2.0</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment2.0/tests</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment2.0/scripts/graph_functions.py</path>
 </paths>
 <msg>Assignment 2.0</msg>
 </logentry>
@@ -159,55 +170,10 @@
 <paths>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.2/View/Pieces/blackChecker.png</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/Model/Board.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/View/Pieces/blackPawn.png</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment1.2/Model/Pieces</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/Tests/BoardTest.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/Tests/Common.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/View/Pieces/whiteChecker.png</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/View/Pieces/whitePawn.png</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/View/Pieces/blackRook.png</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/View/GUI.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/View/Pieces/blackQueen.png</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/View/Pieces/whiteRook.png</path>
-<path
-   action="A"
-   kind="dir">/agmishr2/Assignment1.2/Controller</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/View/Pieces/whiteQueen.png</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/View/ChessboardTile.java</path>
-<path
-   kind="file"
    action="A">/agmishr2/Assignment1.2/Tests/CheckerTest.java</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/Tests/PawnTest.java</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/Tests/PawnTest.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.2/Tests/FerzTest.java</path>
@@ -227,17 +193,17 @@
    action="A"
    kind="file">/agmishr2/Assignment1.2/Tests/KnightTest.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/Model/Team.java</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/Model/Team.java</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.2/Tests/BishopTest.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/Tests/PieceTest.java</path>
-<path
    action="A"
-   kind="file">/agmishr2/Assignment1.2/View/Pieces/blackFerz.png</path>
+   kind="file">/agmishr2/Assignment1.2/Tests/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/View/Pieces/blackFerz.png</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.2/Tests/TeamTest.java</path>
@@ -248,17 +214,17 @@
    kind="file"
    action="A">/agmishr2/Assignment1.2/Tests/KingTest.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/Model/Pieces/Bishop.java</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/Model/Pieces/Bishop.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/Model/Pieces/Knight.java</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/Model/Pieces/Knight.java</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.2/View/Pieces/whiteFerz.png</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/Model/Pieces/Piece.java</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/Model/Pieces/Piece.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.2/Model/Pieces/King.java</path>
@@ -272,47 +238,92 @@
    kind="file"
    action="A">/agmishr2/Assignment1.2/View/Pieces/blackBishop.png</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/Model/Move.java</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/Model/Move.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.2/View/Pieces/blackKnight.png</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/View/Pieces/blackKing.png</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/View/Pieces/blackKing.png</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/View/Pieces/whiteBishop.png</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/View/Pieces/whiteBishop.png</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/View/Pieces/whiteKnight.png</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/View/Pieces/whiteKnight.png</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.2/Tests/RookTest.java</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/Tests/RookTest.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.2/View/Pieces/whiteKing.png</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.2/Tests/QueenTest.java</path>
-<path
    action="A"
-   kind="dir">/agmishr2/Assignment1.2</path>
+   kind="file">/agmishr2/Assignment1.2/Tests/QueenTest.java</path>
+<path
+   kind="dir"
+   action="A">/agmishr2/Assignment1.2</path>
 <path
    action="A"
    kind="dir">/agmishr2/Assignment1.2/Model</path>
 <path
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/Model/Pieces/Rook.java</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment1.2/Tests</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/ManualGUITestPlan.pdf</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/Model/Pieces/Queen.java</path>
+<path
    kind="file"
-   action="A">/agmishr2/Assignment1.2/Model/Pieces/Rook.java</path>
+   action="A">/agmishr2/Assignment1.2/View/Pieces/blackChecker.png</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/Model/Board.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/View/Pieces/blackPawn.png</path>
 <path
    kind="dir"
-   action="A">/agmishr2/Assignment1.2/Tests</path>
+   action="A">/agmishr2/Assignment1.2/Model/Pieces</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.2/ManualGUITestPlan.pdf</path>
+   action="A">/agmishr2/Assignment1.2/Tests/BoardTest.java</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.2/Model/Pieces/Queen.java</path>
+   action="A">/agmishr2/Assignment1.2/Tests/Common.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/View/Pieces/whiteChecker.png</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/View/Pieces/whitePawn.png</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/View/Pieces/blackRook.png</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/View/GUI.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/View/Pieces/blackQueen.png</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.2/View/Pieces/whiteRook.png</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment1.2/Controller</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/View/Pieces/whiteQueen.png</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.2/View/ChessboardTile.java</path>
 </paths>
 <msg>assignment 1.2</msg>
 </logentry>
@@ -323,25 +334,91 @@
 <paths>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment1.1/src/Tests/BoardTest.java</path>
-<path
-   action="A"
-   kind="dir">/agmishr2/Assignment1.1/src/View/Pieces</path>
+   kind="file">/agmishr2/Assignment1.1/bin/Tests/TeamTest.class</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/Model/Pieces/Piece.class</path>
+   action="A">/agmishr2/Assignment1.1/bin/Tests/BoardTest.class</path>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment1.1/src/View/Pieces/whiteQueen.png</path>
+   kind="file">/agmishr2/Assignment1.1/src/View/GUI.java</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/View/GUI.class</path>
+   action="A">/agmishr2/Assignment1.1/GUITestPlan.pdf</path>
 <path
    kind="dir"
-   action="A">/agmishr2/Assignment1.1/src/Controller</path>
+   action="A">/agmishr2/Assignment1.1/bin</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/Model/Pieces/Bishop.class</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.1/src/Tests/CheckerTest.java</path>
+   action="A">/agmishr2/Assignment1.1/src/Tests/PawnTest.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/blackPawn.png</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/Model/Move.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/bin/Tests/PawnTest.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/Doxyfile</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/Tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/bin/Tests/RookTest.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/whiteRook.png</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/Model/Pieces/Pawn.class</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment1.1/bin/Controller</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/whiteQueen.png</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/src/Tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/Model/Team.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/Model/Pieces/Rook.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/Model/Board.java</path>
+<path
+   kind="dir"
+   action="A">/agmishr2/Assignment1.1/src/Model/Pieces</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/Tests/BoardTest.java</path>
+<path
+   kind="dir"
+   action="A">/agmishr2/Assignment1.1/src/View/Pieces</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/Model/Pieces/Piece.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/View/Pieces/whiteQueen.png</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/View/GUI.class</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment1.1/src/Controller</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/src/Tests/CheckerTest.java</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/src/View/Pieces/blackKnight.png</path>
@@ -349,8 +426,8 @@
    action="A"
    kind="file">/agmishr2/Assignment1.1/src/Model/Move.java</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/src/View/Pieces/whiteBishop.png</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/View/Pieces/whiteBishop.png</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/src/View/Pieces/blackKing.png</path>
@@ -358,8 +435,8 @@
    action="A"
    kind="file">/agmishr2/Assignment1.1/src/Model/Pieces/Ferz.java</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Model/Pieces/Checker.class</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/bin/Model/Pieces/Checker.class</path>
 <path
    action="A"
    kind="dir">/agmishr2/Assignment1.1/bin/View/Pieces</path>
@@ -367,17 +444,17 @@
    action="A"
    kind="file">/agmishr2/Assignment1.1/bin/Tests/QueenTest.class</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/src/Model/Pieces/Queen.java</path>
-<path
    action="A"
-   kind="file">/agmishr2/Assignment1.1/src/Tests/PieceTest.java</path>
+   kind="file">/agmishr2/Assignment1.1/src/Model/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/Tests/PieceTest.java</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/src/View/Pieces/blackPawn.png</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/blackKnight.png</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/blackKnight.png</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/src/Tests/Common.java</path>
@@ -388,11 +465,11 @@
    kind="file"
    action="A">/agmishr2/Assignment1.1/bin/Tests/KnightTest.class</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/whiteBishop.png</path>
-<path
    kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/Model/Board.class</path>
+   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/whiteBishop.png</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/Model/Board.class</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.1/src/Model/Pieces/Bishop.java</path>
@@ -406,17 +483,17 @@
    action="A"
    kind="file">/agmishr2/Assignment1.1/src/Model/Pieces/King.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/src/View/Pieces/whiteRook.png</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/src/View/Pieces/whiteRook.png</path>
 <path
    kind="dir"
    action="A">/agmishr2/Assignment1.1/bin/Model</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Model/Pieces/Knight.class</path>
-<path
    kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/Controller/Game.class</path>
+   action="A">/agmishr2/Assignment1.1/bin/Model/Pieces/Knight.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/Controller/Game.class</path>
 <path
    kind="dir"
    action="A">/agmishr2/Assignment1.1/bin/Tests</path>
@@ -427,17 +504,17 @@
    kind="file"
    action="A">/agmishr2/Assignment1.1/src/Tests/FerzTest.java</path>
 <path
-   action="A"
-   kind="dir">/agmishr2/Assignment1.1/bin/Model/Pieces</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/src/Model/Pieces/Checker.java</path>
+   kind="dir"
+   action="A">/agmishr2/Assignment1.1/bin/Model/Pieces</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/whitePawn.png</path>
+   action="A">/agmishr2/Assignment1.1/src/Model/Pieces/Checker.java</path>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/blackRook.png</path>
+   kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/whitePawn.png</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/blackRook.png</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/blackQueen.png</path>
@@ -448,56 +525,56 @@
    action="A"
    kind="file">/agmishr2/Assignment1.1/src/Tests/BishopTest.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/src/Tests/TeamTest.java</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment1.1</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/src/Tests/TeamTest.java</path>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment1.1/src/Tests/KingTest.java</path>
+   kind="dir">/agmishr2/Assignment1.1</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/Tests/KingTest.java</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/bin/Tests/PieceTest.class</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/src/Model/Pieces/Piece.java</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/src/Model/Pieces/Piece.java</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/bin/Tests/Common.class</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/src/View/Pieces/blackQueen.png</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/View/Pieces/blackQueen.png</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/src/View/Pieces/blackBishop.png</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/View/Pieces/blackBishop.png</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/src/View/Pieces/whiteKnight.png</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Tests/CheckerTest.class</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/bin/Tests/CheckerTest.class</path>
 <path
    action="A"
    kind="dir">/agmishr2/Assignment1.1/bin/View</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/src/Tests/RookTest.java</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/src/Tests/RookTest.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.1/bin/Tests/FerzTest.class</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/src/Model/Pieces/Pawn.java</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/src/Model/Pieces/Pawn.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/src/View/Pieces/whiteKing.png</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/src/View/Pieces/whiteKing.png</path>
 <path
    action="A"
    kind="dir">/agmishr2/Assignment1.1/src</path>
 <path
-   kind="dir"
-   action="A">/agmishr2/Assignment1.1/src/Model</path>
+   action="A"
+   kind="dir">/agmishr2/Assignment1.1/src/Model</path>
 <path
    kind="dir"
    action="A">/agmishr2/Assignment1.1/src/Tests</path>
@@ -505,23 +582,23 @@
    kind="file"
    action="A">/agmishr2/Assignment1.1/bin/Model/Pieces/Ferz.class</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/blackBishop.png</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/blackBishop.png</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/bin/Model/Pieces/Queen.class</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/whiteKnight.png</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/whiteKnight.png</path>
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/bin/Model/Team.class</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Tests/BishopTest.class</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/bin/Tests/BishopTest.class</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/View/Pieces/blackKing.png</path>
+   kind="file"
+   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/blackKing.png</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.1/src/View/Pieces/whitePawn.png</path>
@@ -534,72 +611,6 @@
 <path
    kind="file"
    action="A">/agmishr2/Assignment1.1/src/View/Pieces/blackRook.png</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Tests/TeamTest.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/Tests/BoardTest.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/src/View/GUI.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/GUITestPlan.pdf</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment1.1/bin</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Model/Pieces/Bishop.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/src/Tests/PawnTest.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/blackPawn.png</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Model/Move.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Tests/PawnTest.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/Doxyfile</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/src/Tests/QueenTest.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/Tests/RookTest.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/whiteRook.png</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Model/Pieces/Pawn.class</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment1.1/bin/Controller</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/bin/View/Pieces/whiteQueen.png</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/src/Tests/KnightTest.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.1/src/Model/Team.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/bin/Model/Pieces/Rook.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.1/src/Model/Board.java</path>
-<path
-   action="A"
-   kind="dir">/agmishr2/Assignment1.1/src/Model/Pieces</path>
 </paths>
 <msg>Assignment 1.1</msg>
 </logentry>
@@ -610,94 +621,7 @@
 <paths>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment1.0/Tests/QueenTest.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Team.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/BishopTest.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/KnightTest.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/TeamTest.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/BoardTest.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Bishop.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Knight.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Tests/KingTest.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Piece.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/PawnTest.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Game.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/King.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Tests/RookTest.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Framework/Move.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Tests/QueenTest.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Queen.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Framework/Team.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Board.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/RookTest.java</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment1.0/Framework</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Tests/BoardTest.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Bishop.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Knight.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/Common.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Rook.java</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment1.0</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Pieces/King.class</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment1.0/Tests</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Queen.java</path>
+   kind="file">/agmishr2/Assignment1.0/Framework/Team.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.0/Framework/Board.java</path>
@@ -705,47 +629,134 @@
    action="A"
    kind="dir">/agmishr2/Assignment1.0/Framework/Pieces</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/PieceTest.java</path>
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Tests/BishopTest.java</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Move.class</path>
+   action="A">/agmishr2/Assignment1.0/Tests/KnightTest.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Tests/PieceTest.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Framework/Move.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Tests/TeamTest.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Framework/Move.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Tests/QueenTest.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Framework/Board.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Tests/KnightTest.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Tests/BishopTest.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Tests/TeamTest.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Tests/RookTest.java</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment1.0/Framework</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Tests/BoardTest.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Bishop.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Knight.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Tests/KingTest.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Piece.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Tests/QueenTest.java</path>
+<path
+   kind="dir"
+   action="A">/agmishr2/Assignment1.0</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Framework/Pieces/King.class</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment1.0/Tests</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Tests/BoardTest.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Knight.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment1.0/Tests/Common.java</path>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Pawn.class</path>
+   kind="file">/agmishr2/Assignment1.0/Tests/PawnTest.class</path>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Rook.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Tests/PawnTest.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Game.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Tests/KnightTest.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment1.0/Tests/BishopTest.class</path>
+   kind="file">/agmishr2/Assignment1.0/Game.class</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Pawn.java</path>
+   action="A">/agmishr2/Assignment1.0/Framework/Pieces/King.java</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/PieceTest.class</path>
+   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Pawn.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment1.0/Tests/RookTest.class</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment1.0/Tests/TeamTest.class</path>
+   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Rook.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Queen.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Framework/Team.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Game.java</path>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment1.0/Tests/KingTest.class</path>
+   kind="file">/agmishr2/Assignment1.0/Tests/PieceTest.class</path>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment1.0/Framework/Pieces/Piece.class</path>
+   kind="file">/agmishr2/Assignment1.0/Tests/Common.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment1.0/Framework/Pieces/Rook.java</path>
 </paths>
 <msg>Assignment1.0 naming</msg>
 </logentry>
@@ -754,45 +765,6 @@
 <author>agmishr2</author>
 <date>2016-09-09T17:51:50.210229Z</date>
 <paths>
-<path
-   kind="file"
-   action="A">/agmishr2/Chess/Framework/Board.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Chess/Tests/KnightTest.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Chess/Tests/BishopTest.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Chess/Framework/Pieces/Pawn.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Chess/Tests/TeamTest.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Chess/Tests/RookTest.java</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Chess/Framework</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Chess/Tests/BoardTest.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Chess/Framework/Pieces/Bishop.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Chess/Framework/Pieces/Knight.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Chess/Framework/Pieces/Piece.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Chess/Tests/KingTest.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Chess/Tests/QueenTest.java</path>
 <path
    action="A"
    kind="dir">/agmishr2/Chess</path>
@@ -803,17 +775,17 @@
    kind="dir"
    action="A">/agmishr2/Chess/Tests</path>
 <path
+   kind="file"
+   action="A">/agmishr2/Chess/Framework/Pieces/Queen.java</path>
+<path
    action="A"
-   kind="file">/agmishr2/Chess/Framework/Pieces/Queen.java</path>
+   kind="file">/agmishr2/Chess/Tests/BoardTest.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Chess/Tests/BoardTest.java</path>
+   action="A"
+   kind="file">/agmishr2/Chess/Framework/Pieces/Bishop.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Chess/Framework/Pieces/Bishop.java</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Chess/Framework/Pieces/Knight.java</path>
+   action="A"
+   kind="file">/agmishr2/Chess/Framework/Pieces/Knight.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Chess/Tests/Common.java</path>
@@ -827,17 +799,17 @@
    action="A"
    kind="file">/agmishr2/Chess/Framework/Pieces/King.java</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Chess/Framework/Pieces/Pawn.class</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Chess/Tests/RookTest.class</path>
+   kind="file"
+   action="A">/agmishr2/Chess/Framework/Pieces/Pawn.class</path>
 <path
    kind="file"
-   action="A">/agmishr2/Chess/Framework/Pieces/Rook.class</path>
+   action="A">/agmishr2/Chess/Tests/RookTest.class</path>
 <path
    action="A"
-   kind="file">/agmishr2/Chess/Framework/Pieces/Queen.class</path>
+   kind="file">/agmishr2/Chess/Framework/Pieces/Rook.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Chess/Framework/Pieces/Queen.class</path>
 <path
    kind="file"
    action="A">/agmishr2/Chess/Tests/PawnTest.java</path>
@@ -854,11 +826,11 @@
    action="A"
    kind="file">/agmishr2/Chess/Tests/Common.class</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Chess/Framework/Pieces/Rook.java</path>
-<path
    action="A"
-   kind="file">/agmishr2/Chess/Framework/Team.java</path>
+   kind="file">/agmishr2/Chess/Framework/Pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Chess/Framework/Team.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Chess/Framework/Board.java</path>
@@ -869,8 +841,8 @@
    action="A"
    kind="file">/agmishr2/Chess/Tests/KnightTest.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Chess/Tests/BishopTest.java</path>
+   action="A"
+   kind="file">/agmishr2/Chess/Tests/BishopTest.java</path>
 <path
    action="A"
    kind="file">/agmishr2/Chess/Framework/Move.class</path>
@@ -881,17 +853,56 @@
    kind="file"
    action="A">/agmishr2/Chess/Tests/TeamTest.java</path>
 <path
+   action="A"
+   kind="file">/agmishr2/Chess/Tests/KingTest.java</path>
+<path
    kind="file"
-   action="A">/agmishr2/Chess/Tests/KingTest.java</path>
+   action="A">/agmishr2/Chess/Framework/Pieces/Piece.java</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Chess/Framework/Pieces/Piece.java</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Chess/Framework/Move.java</path>
+   kind="file"
+   action="A">/agmishr2/Chess/Framework/Move.java</path>
 <path
    kind="file"
    action="A">/agmishr2/Chess/Tests/QueenTest.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Chess/Framework/Board.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Chess/Tests/KnightTest.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Chess/Tests/BishopTest.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Chess/Framework/Pieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Chess/Tests/TeamTest.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Chess/Tests/RookTest.java</path>
+<path
+   kind="dir"
+   action="A">/agmishr2/Chess/Framework</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Chess/Tests/BoardTest.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Chess/Framework/Pieces/Bishop.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Chess/Framework/Pieces/Knight.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Chess/Framework/Pieces/Piece.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Chess/Tests/KingTest.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Chess/Tests/QueenTest.java</path>
 </paths>
 <msg>Chess Assignment 1.0</msg>
 </logentry>
@@ -902,49 +913,16 @@
 <paths>
 <path
    action="A"
-   kind="file">/agmishr2/Assignment0/HW0/.settings/org.eclipse.jdt.core.prefs</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment0/HW0/.settings</path>
-<path
-   action="D"
-   kind="file">/agmishr2/Assignment0.c</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment0/HW0/src/lanSimulation/tests/LANTests.java</path>
-<path
-   action="A"
-   kind="dir">/agmishr2/Assignment0/HW0/bin/lanSimulation/internals</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment0/HW0/bin/lanSimulation</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment0/HW0/src</path>
-<path
-   action="A"
-   kind="file">/agmishr2/Assignment0/HW0/doc/LANSimulationDocument.pdf</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment0/HW0/useOutput.txt</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
-<path
-   kind="file"
-   action="A">/agmishr2/Assignment0/HW0/doc/README</path>
-<path
-   kind="dir"
-   action="A">/agmishr2/Assignment0/HW0/doc</path>
+   kind="dir">/agmishr2/Assignment0/HW0/doc</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment0/HW0/javadoc.xml</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment0/HW0/COPYING</path>
-<path
    action="A"
-   kind="dir">/agmishr2/Assignment0/HW0/bin</path>
+   kind="file">/agmishr2/Assignment0/HW0/COPYING</path>
+<path
+   kind="dir"
+   action="A">/agmishr2/Assignment0/HW0/bin</path>
 <path
    action="A"
    kind="dir">/agmishr2/Assignment0/HW0/src/lanSimulation/tests</path>
@@ -958,14 +936,14 @@
    action="A"
    kind="file">/agmishr2/Assignment0/HW0/src/lanSimulation/Network.java</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment0/HW0/bin/lanSimulation/internals/Node.class</path>
+   action="A"
+   kind="file">/agmishr2/Assignment0/HW0/bin/lanSimulation/internals/Node.class</path>
 <path
    action="A"
    kind="file">/agmishr2/Assignment0/HW0/.project</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment0/HW0/bin/lanSimulation/Network.class</path>
+   action="A"
+   kind="file">/agmishr2/Assignment0/HW0/bin/lanSimulation/Network.class</path>
 <path
    kind="dir"
    action="A">/agmishr2/Assignment0/HW0/bin/lanSimulation/tests</path>
@@ -979,35 +957,68 @@
    action="A"
    kind="file">/agmishr2/Assignment0/HW0/.classpath</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment0/HW0/expectedOutput.txt</path>
+   kind="file"
+   action="A">/agmishr2/Assignment0/HW0/expectedOutput.txt</path>
 <path
    kind="dir"
    action="A">/agmishr2/Assignment0/HW0</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment0/HW0/bin/lanSimulation/internals/Packet.class</path>
+   kind="file"
+   action="A">/agmishr2/Assignment0/HW0/bin/lanSimulation/internals/Packet.class</path>
 <path
-   action="A"
-   kind="dir">/agmishr2/Assignment0</path>
+   kind="dir"
+   action="A">/agmishr2/Assignment0</path>
 <path
-   action="A"
-   kind="dir">/agmishr2/Assignment0/HW0/src/lanSimulation/internals</path>
+   kind="dir"
+   action="A">/agmishr2/Assignment0/HW0/src/lanSimulation/internals</path>
 <path
-   action="A"
-   kind="file">/agmishr2/Assignment0/HW0/src/lanSimulation/LANSimulation.java</path>
+   kind="file"
+   action="A">/agmishr2/Assignment0/HW0/src/lanSimulation/LANSimulation.java</path>
 <path
    kind="dir"
    action="A">/agmishr2/Assignment0/HW0/src/lanSimulation</path>
 <path
-   kind="file"
-   action="A">/agmishr2/Assignment0/HW0/doc/toDoList</path>
+   action="A"
+   kind="file">/agmishr2/Assignment0/HW0/doc/toDoList</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment0/HW0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment0/Assignment0.c</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment0/HW0/bin/lanSimulation/LANSimulation.class</path>
+   action="A">/agmishr2/Assignment0/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="dir"
+   action="A">/agmishr2/Assignment0/HW0/.settings</path>
+<path
+   action="D"
+   kind="file">/agmishr2/Assignment0.c</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment0/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment0/HW0/bin/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment0/HW0/bin/lanSimulation</path>
+<path
+   action="A"
+   kind="dir">/agmishr2/Assignment0/HW0/src</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment0/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   action="A"
+   kind="file">/agmishr2/Assignment0/HW0/useOutput.txt</path>
 <path
    kind="file"
-   action="A">/agmishr2/Assignment0/Assignment0.c</path>
+   action="A">/agmishr2/Assignment0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   kind="file"
+   action="A">/agmishr2/Assignment0/HW0/doc/README</path>
 </paths>
 <msg>refactored directory</msg>
 </logentry>
@@ -1028,13 +1039,13 @@
 <date>2016-08-28T17:57:16.569076Z</date>
 <paths>
 <path
-   action="A"
    kind="dir"
    copyfrom-path="/agmishr2/grocery"
-   copyfrom-rev="1072">/agmishr2/shopping</path>
+   copyfrom-rev="1072"
+   action="A">/agmishr2/shopping</path>
 <path
-   kind="dir"
-   action="D">/agmishr2/grocery</path>
+   action="D"
+   kind="dir">/agmishr2/grocery</path>
 </paths>
 <msg>Moved grocery to shopping for clarity</msg>
 </logentry>
@@ -1044,8 +1055,8 @@
 <date>2016-08-28T17:56:08.684673Z</date>
 <paths>
 <path
-   kind="file"
-   action="D">/agmishr2/grocery/list3.txt</path>
+   action="D"
+   kind="file">/agmishr2/grocery/list3.txt</path>
 </paths>
 <msg>Discovered that I want to be a vegetarian</msg>
 </logentry>
@@ -1066,8 +1077,8 @@
 <date>2016-08-28T17:54:52.904692Z</date>
 <paths>
 <path
-   kind="file"
-   action="M">/agmishr2/grocery/list2.txt</path>
+   action="M"
+   kind="file">/agmishr2/grocery/list2.txt</path>
 </paths>
 <msg>Emphasize importance of carrot</msg>
 </logentry>
@@ -1077,8 +1088,8 @@
 <date>2016-08-28T17:52:48.529387Z</date>
 <paths>
 <path
-   action="M"
-   kind="file">/agmishr2/grocery/list2.txt</path>
+   kind="file"
+   action="M">/agmishr2/grocery/list2.txt</path>
 </paths>
 <msg>Put emphasis on carrot</msg>
 </logentry>
@@ -1088,8 +1099,8 @@
 <date>2016-08-28T17:52:05.438785Z</date>
 <paths>
 <path
-   kind="file"
-   action="M">/agmishr2/grocery/list2.txt</path>
+   action="M"
+   kind="file">/agmishr2/grocery/list2.txt</path>
 </paths>
 <msg>Added less important vegetable</msg>
 </logentry>
@@ -1110,8 +1121,8 @@
 <date>2016-08-28T17:48:48.554492Z</date>
 <paths>
 <path
-   action="M"
-   kind="file">/agmishr2/grocery/list2.txt</path>
+   kind="file"
+   action="M">/agmishr2/grocery/list2.txt</path>
 </paths>
 <msg>Adding more vegetables</msg>
 </logentry>
@@ -1121,8 +1132,8 @@
 <date>2016-08-28T17:47:43.576112Z</date>
 <paths>
 <path
-   kind="file"
-   action="M">/agmishr2/grocery/list1.txt</path>
+   action="M"
+   kind="file">/agmishr2/grocery/list1.txt</path>
 </paths>
 <msg>Need to buy more fruit </msg>
 </logentry>
@@ -1135,8 +1146,8 @@
    kind="file"
    action="A">/agmishr2/grocery/list1.txt</path>
 <path
-   kind="file"
-   action="A">/agmishr2/grocery/list2.txt</path>
+   action="A"
+   kind="file">/agmishr2/grocery/list2.txt</path>
 <path
    action="A"
    kind="dir">/agmishr2/grocery</path>
@@ -1149,8 +1160,8 @@
 <date>2016-08-23T17:56:43.522951Z</date>
 <paths>
 <path
-   kind="dir"
-   action="A">/agmishr2</path>
+   action="A"
+   kind="dir">/agmishr2</path>
 </paths>
 <msg>created directory agmishr2</msg>
 </logentry>

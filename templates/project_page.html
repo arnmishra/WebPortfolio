@@ -6,31 +6,34 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <h3> FILES: </h3>
+    <a href="/" title="Return to Home Page" style="float: right;"><b>Return Home</b></a>
+    <h1 align="center">{{ project_name }}</h1>
+    <h2> FILES: </h2>
     {% for subpart in project %}
-        {% if "size" in project[subpart] %}
-            <ul class="project-categories">
+        {% if "size" in project[subpart] and "version" in project[subpart] %}
+            <ul class="file-data">
                 <li>
-                    <p>File Name: {{ subpart }}</p>
-                    <p><a href="{{ url_for('access_subdirectory', project=project_name, is_file=True, name=subpart) }}">View Detail</a></p>
+                    <h2 align="center">File Name: {{ subpart }}</h2>
+                    <p><a href="{{ url_for('access_subdirectory', project=project_name, is_file=True, name=subpart) }}">
+                        View File Details</a></p>
                     <br>
                 </li>
             </ul>
         {% endif %}
     {% endfor %}
-    <br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
     <hr>
-    <h3> SUBDIRECTORIES: </h3>
+    <h2> SUBDIRECTORIES: </h2>
     {% for subpart in project %}
-        {% if "size" not in project[subpart] %}
-            <ul class="project-categories">
+        {% if "size" not in project[subpart] and "date" in project[subpart] %}
+            <ul class="project-subdirectories">
                 <li>
-                    <p>Directory Name: {{ subpart }}</p>
+                    <h2 align="center">Directory Name: {{ subpart }}</h2>
                     <p>Date: {{ project[subpart]['date'] }}</p>
                     <p>Version: {{ project[subpart]['version'] }}</p>
                     <p>Summary: {{ project[subpart]['summary'] }}</p>
-                    <p>Author: {{ project[subpart]['author'] }}</p>
-                    <p><a href="{{ url_for('access_subdirectory', project=project_name, is_file=False, name=subpart) }}">View Details</a></p>
+                    <p><a href="{{ url_for('access_subdirectory', project=project_name, is_file=False, name=subpart) }}">
+                        View Subdirectory Details</a></p>
                 </li>
             </ul>
         {% endif %}

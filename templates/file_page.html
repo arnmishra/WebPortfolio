@@ -5,12 +5,16 @@
     <title>{{ file_name }}</title>
 </head>
 <body>
+    <a href="/" title="Return to Home Page" style="float: right;"><b>Return Home</b></a>
     <h1>File Name: {{ file_name }}</h1>
-    <p>Author: {{ file_data['author'] }} </p>
-    <p>Version: {{ file_data['version'] }} </p>
-    <p>Summary: {{ file_data['summary'] }} </p>
-    <p>Date: {{ file_data['date'] }} </p>
     <p>File Size: {{ file_data['size'] }} </p>
+    <p>Type: {{ file_data['type'] }} </p>
+    <p>Path: {{ file_data['path'] }}</p>
+    <p>Version: {{ file_data['version'] }} </p>
+    <p>Author: {{ file_data['author'] }} </p>
+    <p>Info: {{ file_data['summary'] }} </p>
+    <p>Date: {{ file_data['date'] }} </p>
+
     <iframe src="{{ file_data['url'] }}" width=100% height="500">File</iframe>
 </body>
 </html>
