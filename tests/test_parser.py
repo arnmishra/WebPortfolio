@@ -31,7 +31,7 @@ class TestGraph(unittest.TestCase):
         """ Test that list2's summary isn't 'Add List 2' and that its version isn't '1065' after modification. """
         projects = parse_files(svn_list="../data/test_svn_list.xml", svn_log="../data/test_svn_log.xml")
         self.assertEqual(projects["shopping"]["list2.txt"]["summary"], "Moved grocery to shopping for clarity")
-        self.assertEqual(projects["shopping"]["list2.txt"]["version"], "1068")
+        self.assertEqual(projects["shopping"]["list2.txt"]["version"], "1073")
 
     def test_delete_directory(self):
         """ Test that the grocery directory is deleted from the final projects dictionary. """
