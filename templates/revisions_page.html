@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ file_name }} Revisions</title>
+</head>
+<body>
+    <a href="/" title="Return to Home Page" style="float: right;"><b>Return Home</b></a>
+    <h1>Revisions for: {{ file_name }}</h1>
+    {% for revision in revisions %}
+            <h3>Version: {{ revision['version'] }} </h3>
+            <p>Author: {{ revision['author'] }} </p>
+            <p>Info: {{ revision['summary'] }}</p>
+            <p>Date: {{ revision['date'] }} </p>
+            <iframe src="{{ revision['url'] }}" width=100% height="500">File</iframe>
+            <hr>
+    {% endfor %}
+</body>

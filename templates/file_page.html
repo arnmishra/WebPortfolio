@@ -5,6 +5,7 @@
     <title>{{ file_name }}</title>
 </head>
 <body>
+<p>{{ project }} </p>
     <a href="/" title="Return to Home Page" style="float: right;"><b>Return Home</b></a>
     <h1>File Name: {{ file_name }}</h1>
     <p>File Size: {{ file_data['size'] }} </p>
@@ -14,7 +15,11 @@
     <p>Author: {{ file_data['author'] }} </p>
     <p>Info: {{ file_data['summary'] }} </p>
     <p>Date: {{ file_data['date'] }} </p>
-
+    {% if file_data['revisions']|length > 0 %}
+        <p>Revisions:
+        <a href="{{ url_for('access_revisions', project=project_name, file_name=file_name) }}">
+            Show revisions</a></p>
+    {% endif %}
     <iframe src="{{ file_data['url'] }}" width=100% height="500">File</iframe>
 </body>
 </html>

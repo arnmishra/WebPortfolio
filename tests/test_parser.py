@@ -20,10 +20,10 @@ class TestGraph(unittest.TestCase):
         self.assertEqual(projects["shopping"]["list1.txt"]["size"], "56")
         self.assertEqual(projects["shopping"]["list1.txt"]["type"], "Text File")
         self.assertEqual(projects["shopping"]["list1.txt"]["path"], "/agmishr2/shopping/list1.txt")
-        self.assertEqual(projects["shopping"]["list1.txt"]["version"], "1062")
+        self.assertEqual(projects["shopping"]["list1.txt"]["version"], "1073")
         self.assertEqual(projects["shopping"]["list1.txt"]["author"], "agmishr2")
         self.assertEqual(projects["shopping"]["list1.txt"]["summary"], "Moved grocery to shopping for clarity")
-        self.assertEqual(projects["shopping"]["list1.txt"]["date"], "08/28/2016 05:47:43 PM")
+        self.assertEqual(projects["shopping"]["list1.txt"]["date"], "08/28/2016 05:57:16 PM")
         expected_url = "https://subversion.ews.illinois.edu/svn/fa16-cs242/agmishr2/shopping/list1.txt"
         self.assertEqual(projects["shopping"]["list1.txt"]["url"], expected_url)
 

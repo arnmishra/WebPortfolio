@@ -1034,44 +1034,6 @@
 <msg>Assignment 0</msg>
 </logentry>
 <logentry
-   revision="1073">
-<author>agmishr2</author>
-<date>2016-08-28T17:57:16.569076Z</date>
-<paths>
-<path
-   kind="dir"
-   copyfrom-path="/agmishr2/grocery"
-   copyfrom-rev="1072"
-   action="A">/agmishr2/shopping</path>
-<path
-   action="D"
-   kind="dir">/agmishr2/grocery</path>
-</paths>
-<msg>Moved grocery to shopping for clarity</msg>
-</logentry>
-<logentry
-   revision="1071">
-<author>agmishr2</author>
-<date>2016-08-28T17:56:08.684673Z</date>
-<paths>
-<path
-   action="D"
-   kind="file">/agmishr2/grocery/list3.txt</path>
-</paths>
-<msg>Discovered that I want to be a vegetarian</msg>
-</logentry>
-<logentry
-   revision="1070">
-<author>agmishr2</author>
-<date>2016-08-28T17:55:29.182459Z</date>
-<paths>
-<path
-   kind="file"
-   action="A">/agmishr2/grocery/list3.txt</path>
-</paths>
-<msg>Added list of meats</msg>
-</logentry>
-<logentry
    revision="1068">
 <author>agmishr2</author>
 <date>2016-08-28T17:54:52.904692Z</date>
@@ -1083,50 +1045,6 @@
 <msg>Emphasize importance of carrot</msg>
 </logentry>
 <logentry
-   revision="1066">
-<author>agmishr2</author>
-<date>2016-08-28T17:52:48.529387Z</date>
-<paths>
-<path
-   kind="file"
-   action="M">/agmishr2/grocery/list2.txt</path>
-</paths>
-<msg>Put emphasis on carrot</msg>
-</logentry>
-<logentry
-   revision="1065">
-<author>agmishr2</author>
-<date>2016-08-28T17:52:05.438785Z</date>
-<paths>
-<path
-   action="M"
-   kind="file">/agmishr2/grocery/list2.txt</path>
-</paths>
-<msg>Added less important vegetable</msg>
-</logentry>
-<logentry
-   revision="1064">
-<author>agmishr2</author>
-<date>2016-08-28T17:51:23.085611Z</date>
-<paths>
-<path
-   action="M"
-   kind="file">/agmishr2/grocery/list2.txt</path>
-</paths>
-<msg>Added more important vegetable</msg>
-</logentry>
-<logentry
-   revision="1063">
-<author>agmishr2</author>
-<date>2016-08-28T17:48:48.554492Z</date>
-<paths>
-<path
-   kind="file"
-   action="M">/agmishr2/grocery/list2.txt</path>
-</paths>
-<msg>Adding more vegetables</msg>
-</logentry>
-<logentry
    revision="1062">
 <author>agmishr2</author>
 <date>2016-08-28T17:47:43.576112Z</date>
@@ -1136,23 +1054,6 @@
    kind="file">/agmishr2/shopping/list1.txt</path>
 </paths>
 <msg>Need to buy more fruit </msg>
-</logentry>
-<logentry
-   revision="1058">
-<author>agmishr2</author>
-<date>2016-08-28T17:45:05.862834Z</date>
-<paths>
-<path
-   kind="file"
-   action="A">/agmishr2/grocery/list1.txt</path>
-<path
-   action="A"
-   kind="file">/agmishr2/grocery/list2.txt</path>
-<path
-   action="A"
-   kind="dir">/agmishr2/grocery</path>
-</paths>
-<msg>importing grocery project</msg>
 </logentry>
 <logentry
    revision="13">
