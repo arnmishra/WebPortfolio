@@ -6,8 +6,8 @@ import dateutil.parser
 CODE_ENDINGS = [".py", ".java", ".c", ".cpp", ".h", ".js"]
 IMAGE_ENDINGS = [".jpg", ".png"]
 URL = "https://subversion.ews.illinois.edu/svn/fa16-cs242"
-SVN_LIST_FILE = "data/svn_list.xml"
-SVN_LOG_FILE = "data/svn_log.xml"
+SVN_LIST_FILE = "portfolio/data/svn_list.xml"
+SVN_LOG_FILE = "portfolio/data/svn_log.xml"
 
 
 def parse_svn_list(svn_list):
@@ -137,4 +137,3 @@ def parse_files(svn_list=SVN_LIST_FILE, svn_log=SVN_LOG_FILE):
     projects = parse_svn_list(svn_list)
     projects = parse_svn_log(projects, svn_log)
     return projects
-

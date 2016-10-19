@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ file_name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<p>{{ project }} </p>
+    <a href="/" title="Return to Home Page" style="float: right;"><b>Return Home</b></a>
+    <h1>File Name: {{ file_name }}</h1>
+    <p>File Size: {{ file_data['size'] }} </p>
+    <p>Type: {{ file_data['type'] }} </p>
+    <p>Path: {{ file_data['path'] }}</p>
+    <p>Version: {{ file_data['version'] }} </p>
+    <p>Author: {{ file_data['author'] }} </p>
+    <p>Info: {{ file_data['summary'] }} </p>
+    <p>Date: {{ file_data['date'] }} </p>
+    {% if file_data['revisions']|length > 0 %}
+        <p>Revisions:
+        <a href="{{ url_for('access_revisions', project=project_name, file_name=file_name) }}">
+            Show revisions</a></p>
+    {% endif %}
+    <hr>
+    <iframe src="{{ file_data['url'] }}" width=100% height="500">File</iframe>
+    <hr>
+    <div id="comment-body">
+        <h1>Comments</h1>
+        <div id="container">
+            <ul id="comments">
+                {% for i in range(comments|length) %}
+                <li class="cmmnt">
+                    <div class="cmmnt-content">
+                        <header> {{ comments[i].username }} -
+                            <span class="pubdate"> {{ comments[i].timestamp }}</span>
+                            <span class="votes">
+                                Votes: {{ comments[i].votes }}
+                                <form action="" method="POST">
+                                    <input type="hidden" name="project" readonly value={{ project_name }}>
+                                    <input type="hidden" name="file_name" readonly value={{ file_name }}>
+                                    <input type="hidden" name="id" readonly value={{ comments[i].id }}>
+                                    <input type="submit" value="+1">
+                                </form>
+                            </span>
+                        </header>
+                        <p> {{ comments[i].comment_text }} </p>
+                        <ul class="replies">
+                            {% for comment_reply in comment_replies[i] %}
+                            <li class="cmmnt">
+                                <div class="cmmnt-content">
+                                    <header> {{ comment_reply.username }} -
+                                        <span class="pubdate"> {{ comment_reply.timestamp }}</span>
+                                        <span class="votes">
+                                            Votes: {{ comments[i].votes }}
+                                            <form action="" method="POST">
+                                                <input type="hidden" name="project" readonly value={{ project_name }}>
+                                                <input type="hidden" name="file_name" readonly value={{ file_name }}>
+                                                <input type="hidden" name="id" readonly value={{ comment_reply.id }}>
+                                                <input type="button" value="+1">
+                                            </form>
+                                        </span>
+                                    </header>
+                                    <p> {{ comment_reply.comment_text }} </p>
+                                </div>
+                            </li>
+                            {% endfor %}
+                            <div id="addReply"></div>
+                        </ul>
+                        <input id = "showButton" type="submit" value="Reply" style="float: right;"
+                               onClick="addReply('addReply', '{{ project_name }}', '{{ file_name }}', '{{ comments[i].id }}');">
+                        <br>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+
+        <form action="", method="POST">
+            <h3>Add new comment:</h3>
+            Username: <input type="text" name="username"><br>
+            Comment: <textarea name="comment" cols="40" rows="5"></textarea>
+            <input type="hidden" name="project" readonly value={{ project_name }}>
+            <input type="hidden" name="file_name" readonly value={{ file_name }}>
+            <input type="hidden" name="parent_id" readonly value=-1>
+            <input type="submit" value="Comment">
+        </form>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="{{ url_for('static', filename='js/addReply.js') }}"></script>
+</html>

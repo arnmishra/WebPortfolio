@@ -14,7 +14,7 @@
             <ul class="file-data">
                 <li>
                     <h2 align="center">File Name: {{ subpart }}</h2>
-                    <p><a href="{{ url_for('access_subdirectory', project=project_name, is_file=True, name=subpart) }}">
+                    <p><a href="{{ url_for('access_subdirectory', project=project_name, is_file=True, file_name=subpart) }}">
                         View File Details</a></p>
                     <br>
                 </li>
@@ -32,7 +32,7 @@
                     <p>Date: {{ project[subpart]['date'] }}</p>
                     <p>Version: {{ project[subpart]['version'] }}</p>
                     <p>Summary: {{ project[subpart]['summary'] }}</p>
-                    <p><a href="{{ url_for('access_subdirectory', project=project_name, is_file=False, name=subpart) }}">
+                    <p><a href="{{ url_for('access_subdirectory', project=project_name, is_file=False, file_name=subpart) }}">
                         View Subdirectory Details</a></p>
                 </li>
             </ul>
