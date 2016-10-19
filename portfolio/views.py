@@ -62,7 +62,6 @@ def add_comment(project=None, file_name=None):
         comment_id = request.form.get("id")
         comment = Comment.query.get(comment_id)
         comment.votes += 1
-        db.session.commit()
     else:
         project = request.form.get("project")
         file_name = request.form.get("file_name")
@@ -72,11 +71,11 @@ def add_comment(project=None, file_name=None):
         timestamp = strftime("%Y-%m-%d %H:%M:%S")
         new_comment = Comment(username, comment_text, timestamp, file_name, parent_id)
         db.session.add(new_comment)
-        db.session.commit()
         current_directory = projects
         project_dirs = project.split("_")
         for dirs in project_dirs:
             current_directory = current_directory[dirs]
+    db.session.commit()
     return redirect('/' + project + '/' + file_name + '?is_file=True')
 
 
