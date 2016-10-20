@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>{{ file_name }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
 <p>{{ project }} </p>
@@ -51,12 +52,12 @@
                                     <header> {{ comment_reply.username }} -
                                         <span class="pubdate"> {{ comment_reply.timestamp }}</span>
                                         <span class="votes">
-                                            Votes: {{ comments[i].votes }}
+                                            Votes: {{ comment_reply.votes }}
                                             <form action="" method="POST">
                                                 <input type="hidden" name="project" readonly value={{ project_name }}>
                                                 <input type="hidden" name="file_name" readonly value={{ file_name }}>
                                                 <input type="hidden" name="id" readonly value={{ comment_reply.id }}>
-                                                <input type="button" value="+1">
+                                                <input type="submit" value="+1">
                                             </form>
                                         </span>
                                     </header>

@@ -38,7 +38,7 @@ def access_subdirectory(project=None, file_name=None):
     :param file_name: The name of the file/subdirectory
     :return: file_page.html or project_page.html
     """
-    comments = Comment.query.filter(file_name == file_name, Comment.parent_id != 1).all()
+    comments = Comment.query.filter(Comment.file_path == project + file_name, Comment.parent_id == -1).all()
     comment_replies = []
     for comment in comments:
         comment_replies.append(Comment.query.filter_by(parent_id=comment.id).all())
@@ -69,7 +69,7 @@ def add_comment(project=None, file_name=None):
         username = request.form.get("username")
         parent_id = request.form.get("parent_id")
         timestamp = strftime("%Y-%m-%d %H:%M:%S")
-        new_comment = Comment(username, comment_text, timestamp, file_name, parent_id)
+        new_comment = Comment(username, comment_text, timestamp, project + file_name, parent_id)
         db.session.add(new_comment)
         current_directory = projects
         project_dirs = project.split("_")
