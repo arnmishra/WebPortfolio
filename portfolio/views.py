@@ -1,8 +1,9 @@
 from time import strftime
 from flask import Flask, render_template, request, redirect
 from portfolio import db, app
-from models import Comment
+from models import Comment, Expletives
 import parser
+import re
 
 projects = parser.parse_files()
 
@@ -65,7 +66,7 @@ def add_comment(project=None, file_name=None):
     else:
         project = request.form.get("project")
         file_name = request.form.get("file_name")
-        comment_text = request.form.get("comment")
+        comment_text = edit_expletives(request.form.get("comment"))
         username = request.form.get("username")
         parent_id = request.form.get("parent_id")
         timestamp = strftime("%Y-%m-%d %H:%M:%S")
@@ -77,6 +78,21 @@ def add_comment(project=None, file_name=None):
             current_directory = current_directory[dirs]
     db.session.commit()
     return redirect('/' + project + '/' + file_name + '?is_file=True')
+
+
+def edit_expletives(comment_text):
+    """
+    http://stackoverflow.com/questions/13090806/clean-line-of-punctuation-and-split-into-words-python
+    :param comment_text:
+    :return:
+    """
+    words = re.findall(r'[^\s!\-,.?":;0-9]+', comment_text)
+    print words
+    for word in words:
+        censor = Expletives.query.filter(Expletives.expletive == word.lower()).first()
+        if censor:
+            comment_text = comment_text.replace(word, censor.correction)
+    return comment_text
 
 
 @app.route('/revisions/<project>/<file_name>')

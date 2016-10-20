@@ -22,3 +22,15 @@ class Comment(db.Model):
         return "<Comment(username='%s', comment='%s', timestamp='%s', file_path='%s')>" \
                % (self.username, self.comment_text, self.timestamp, self.file_path)
 
+
+class Expletives(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    expletive = db.Column(db.Text)
+    correction = db.Column(db.Text)
+
+    def __init__(self, expletive, correction):
+        self.expletive = expletive
+        self.correction = correction
+
+    def __repr__(self):
+        return "<Expletives(expletive='%s', correction='%s')>" % (self.expletive, self.correction)

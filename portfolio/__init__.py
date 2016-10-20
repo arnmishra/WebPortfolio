@@ -8,4 +8,9 @@ db = SQLAlchemy(app)
 from portfolio import models
 db.drop_all()
 db.create_all()
+censor = {"fuck": "f***", "shit": "s***", "crap": "c***", "damn": "d***", "bitch": "b****", "ass": "a**"}
+for word in censor:
+    new_expletive = models.Expletives(word, censor[word])
+    db.session.add(new_expletive)
+    db.session.commit()
 from portfolio import views
