@@ -1,9 +1,11 @@
-from time import strftime
-from flask import Flask, render_template, request, redirect
-from portfolio import db, app
-from models import Comment, Expletives
-import parser
 import re
+from time import strftime
+
+from flask import render_template, request, redirect
+
+from models import Comment, Expletives
+from portfolio import db, app
+from portfolio.scripts import parser
 
 projects = parser.parse_files()
 
@@ -87,7 +89,6 @@ def edit_expletives(comment_text):
     :return:
     """
     words = re.findall(r'[^\s!\-,.?":;0-9]+', comment_text)
-    print words
     for word in words:
         censor = Expletives.query.filter(Expletives.expletive == word.lower()).first()
         if censor:

@@ -19,8 +19,8 @@ class Comment(db.Model):
         self.votes = 0
 
     def __repr__(self):
-        return "<Comment(username='%s', comment='%s', timestamp='%s', file_path='%s')>" \
-               % (self.username, self.comment_text, self.timestamp, self.file_path)
+        return "<Comment(username='%s', comment='%s', timestamp='%s', file_path='%s', parent_id='%i')>" \
+               % (self.username, self.comment_text, self.timestamp, self.file_path, self.parent_id)
 
 
 class Expletives(db.Model):
