@@ -1,6 +1,5 @@
 import re
 from time import strftime
-
 from flask import render_template, request, redirect
 
 from models import Comment, Expletives
@@ -61,6 +60,12 @@ def access_subdirectory(project=None, file_name=None):
 
 @app.route('/<project>/<file_name>', methods=['POST'])
 def add_comment(project=None, file_name=None):
+    """ Adds to the comment or to the vote count of the comment
+
+    :param project: path to the directory of the file
+    :param file_name: name of the file
+    :return: redirect back to current page with updated vote/comment
+    """
     if "id" in request.form:
         comment_id = request.form.get("id")
         comment = Comment.query.get(comment_id)
@@ -83,10 +88,11 @@ def add_comment(project=None, file_name=None):
 
 
 def edit_expletives(comment_text):
-    """
+    """ Edit out the expletives by replacing them with the words in the database
     http://stackoverflow.com/questions/13090806/clean-line-of-punctuation-and-split-into-words-python
-    :param comment_text:
-    :return:
+
+    :param comment_text: Text to be censored
+    :return: updated text
     """
     words = re.findall(r'[^\s!\-,.?":;0-9]+', comment_text)
     for word in words:
@@ -98,6 +104,12 @@ def edit_expletives(comment_text):
 
 @app.route('/revisions/<project>/<file_name>')
 def access_revisions(project=None, file_name=None):
+    """ Route to access revisions of current files if they exist
+
+    :param project: path to directory of the file
+    :param file_name: name of the file
+    :return: the revision page
+    """
     current_directory = projects
     project_dirs = project.split("_")
     for dirs in project_dirs:

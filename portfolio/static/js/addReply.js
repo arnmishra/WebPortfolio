@@ -1,3 +1,5 @@
+/** Function to add the reply to comment html when the button is clicked */
+
 function addReply(divName, project_name, file_name, parent_id){
 
 	var newDiv = document.createElement('div');

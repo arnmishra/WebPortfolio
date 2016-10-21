@@ -1,3 +1,4 @@
+""" Creates the app, creates the database, and initializes the expletives """
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
