@@ -1,4 +1,7 @@
-""" Creates the app, creates the database, and initializes the expletives """
+"""
+Creates the app, creates the database, and initializes the expletives.
+SQL Injection is covered by SQLAlchemy and XSS is covered by Jinja2.
+"""
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 

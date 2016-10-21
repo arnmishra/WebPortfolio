@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>SVN Projects</title>
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
@@ -11,7 +11,7 @@
     <div>
         <ul class="project-categories">
             {% for project in projects %}
-                {% if "date" in projects[project] %}
+                {% if projects[project] is mapping and "date" in projects[project] %}
                 <li>
                     <h2 align="center">Project Title: {{ project }}</h2>
                     <p>Date: {{ projects[project]['date'] }}</p>

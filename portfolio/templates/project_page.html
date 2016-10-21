@@ -11,7 +11,7 @@
     <h1 align="center">{{ project_name }}</h1>
     <h2> FILES: </h2>
     {% for subpart in project %}
-        {% if "size" in project[subpart] and "version" in project[subpart] %}
+        {% if project[subpart] is mapping and "size" in project[subpart] and "version" in project[subpart] %}
             <ul class="file-data">
                 <li>
                     <h2 align="center">File Name: {{ subpart }}</h2>
@@ -26,7 +26,7 @@
     <hr>
     <h2> SUBDIRECTORIES: </h2>
     {% for subpart in project %}
-        {% if "size" not in project[subpart] and "date" in project[subpart] %}
+        {% if project[subpart] is mapping and "size" not in project[subpart] and "date" in project[subpart] %}
             <ul class="project-subdirectories">
                 <li>
                     <h2 align="center">Directory Name: {{ subpart }}</h2>

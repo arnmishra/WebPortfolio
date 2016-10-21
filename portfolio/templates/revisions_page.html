@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ file_name }} Revisions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
@@ -13,7 +14,8 @@
             <p>Author: {{ revision['author'] }} </p>
             <p>Info: {{ revision['summary'] }}</p>
             <p>Date: {{ revision['date'] }} </p>
-            <iframe src="{{ revision['url'] }}" width=100% height="500">File</iframe>
+            <iframe src="{{ revision['url'] }}" width=100% height="500" allowTransparency="true"
+            style="background-color:white;">File</iframe>
             <hr>
     {% endfor %}
     <br>

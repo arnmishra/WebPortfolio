@@ -1039,10 +1039,21 @@
 <date>2016-08-28T17:54:52.904692Z</date>
 <paths>
 <path
-   action="M"
+   action="A"
    kind="file">/agmishr2/shopping/list2.txt</path>
 </paths>
 <msg>Emphasize importance of carrot</msg>
+</logentry>
+<logentry
+   revision="1068">
+<author>agmishr2</author>
+<date>2016-08-28T17:54:52.904692Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/agmishr2/shopping</path>
+</paths>
+<msg>Adding Shopping</msg>
 </logentry>
 <logentry
    revision="1062">
@@ -1050,7 +1061,7 @@
 <date>2016-08-28T17:47:43.576112Z</date>
 <paths>
 <path
-   action="M"
+   action="A"
    kind="file">/agmishr2/shopping/list1.txt</path>
 </paths>
 <msg>Need to buy more fruit </msg>
